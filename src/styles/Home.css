@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.home1,.home2,.home3{
+    height: 100vh;
+    width: 100%;   
+}
+body{
+    background-color: rgba(203, 25, 209, 0.073);
+}
+.home1{
+    background: linear-gradient(rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.938)) , url(../../public/images/bcgphone.png) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.home1 .home1-inner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home1-inner h1{
+    font-size: 5rem;
+    font-family: roboto;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+.home1-inner p{
+color: red;
+text-shadow: 2px 2px 5px white;
+font-size: 2.0rem;
+cursor: pointer;
+}
+
+.home1-inner p:hover{
+filter: invert();
+}
+.home1-inner h1:hover{
+filter: invert();
+}
+
+.home2{
+    background-color: rgba(128, 0, 0, 0.325);
+    width: 70%;
+    border-radius: 0px 200px 200px 0;
+    height: 80vh;
+}
+.home2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3rem;
+}
+    .home2 h1{
+        letter-spacing: 2px;
+        border-bottom: ridge 5px black;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .home2 p{
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .btn-home{
+        background-color: rgba(128, 0, 0, 0.66);
+        padding: 0.5rem 1rem;
+        margin-top: 4rem;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn-home:hover{
+        filter: invert();
+    }
+
+    .parent-home2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .home3-inner{
+        background-color: rgba(0, 0, 0, 0.2);
+        width:70%;
+        border-radius: 150px 0px 0px 150px;
+        height: 80vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: brown;
+        
+    
+    
+    
+    }
+    .home3{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-color: rgba(203, 25, 209, 0.073);
+        height: 100vh;
+
+    }
+    .brands{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:70%;
+        flex-wrap: wrap;
+
+    
+    }
+    .brand{
+        text-align: center;
+        background-color: rgb(149, 18, 44);
+        color:#ffffff;
+        height:7rem;
+        width:7rem;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: all .5s;
+        margin-top: 10px;
+        animation: poptop infinite 2s alternate linear ;
+    
+    }
+    .icon{
+        font-size: 50px;
+    
+    }
+    .brand p{
+        font-weight:900;
+        margin-top: 7px;
+    }
+    .brand:hover{
+        filter:invert();
+    
+    }
+    @keyframes poptop{
+        to{
+           transform: translatey(4rem);    
+        }
+           
+    
+    }
+    .footer{
+        background-color: #ffffff;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:2rem 0rem;
+        flex-wrap:wrap;
+    
+    }
+    .footer-main1{
+        text-align: center;
+        line-height: 1.5rem;
+        
+    
+    }
+    .footer-main2{
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    
+    }
+    .footer-main2 h4{
+        margin-bottom: 5px;
+    }
+    .footer-main2 a{
+        font:bold .8rem cursive;
+        color:black;
+    }
+    .footer-main2 a:hover{
+        text-decoration: underline;
+    }
+
+   
