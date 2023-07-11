@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/techythecatalyst/static/css/main.1a6b3953.css",
-    "main.js": "/techythecatalyst/static/js/main.b0f20c68.js",
+    "main.css": "/techythecatalyst/static/css/main.b699c096.css",
+    "main.js": "/techythecatalyst/static/js/main.2dbd167b.js",
     "static/media/bcgphone.png": "/techythecatalyst/static/media/bcgphone.c6900a1bb4723042a533.png",
     "index.html": "/techythecatalyst/index.html",
-    "main.1a6b3953.css.map": "/techythecatalyst/static/css/main.1a6b3953.css.map",
-    "main.b0f20c68.js.map": "/techythecatalyst/static/js/main.b0f20c68.js.map"
+    "main.b699c096.css.map": "/techythecatalyst/static/css/main.b699c096.css.map",
+    "main.2dbd167b.js.map": "/techythecatalyst/static/js/main.2dbd167b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a6b3953.css",
-    "static/js/main.b0f20c68.js"
+    "static/css/main.b699c096.css",
+    "static/js/main.2dbd167b.js"
   ]
 }
